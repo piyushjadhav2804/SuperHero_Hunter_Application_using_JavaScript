@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Marvel SuperHero Hunter</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/0613551804.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>SuperHero Hunter</h1>
+    <button id="favoritesBtn" onclick="window.location.href='html/favorites.html'">Favorites</button>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="input-group">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search for a superhero">
+            <button id="searchBtn" class="btn-primary"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="results"></div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

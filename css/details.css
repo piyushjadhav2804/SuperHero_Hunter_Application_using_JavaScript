@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+    background-color: #D3D3D3;
+
+}
+
+header {
+  background-color: #4169E1;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container {
+    margin-top: 20px;
+    /* max-width: 1200px; */
+    padding: 0 20px;
+}
+
+.image-desc {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.hero-thumbnail {
+  width: 300px;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.hero-thumbnail img {
+    height: 250px;
+    width: 250px;
+}
+
+
+#heroName {
+    font-size: 4rem;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    color: #FF8C00;
+}
+
+
+#heroDescription {
+    font-size: 1.5rem;
+    color: #2F4F4F;
+}
+
+.hero-details-column h2 {
+    color: #FF1493;
+}
+
+
+li {
+    color: #DC143C;
+}
+
+#comics {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#comics li {
+    flex-basis: 50%;
+}
+
+#events {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#events li {
+    flex-basis: 50%;
+}
+
+#series {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#series li {
+    flex-basis: 50%;
+}
+
+#stories {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#stories li {
+    flex-basis: 50%;
+}
+
