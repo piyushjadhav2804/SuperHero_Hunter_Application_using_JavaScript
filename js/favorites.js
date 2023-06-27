@@ -38,7 +38,12 @@ function loadFavorites() {
 
     const name = document.createElement("h5");
     name.className = "card-title";
-    name.textContent = superhero.name;
+
+    const nameLink = document.createElement("a");
+    nameLink.setAttribute("href", `hero-details.html?id=${superhero.id}`);
+    nameLink.textContent = superhero.name;
+
+    name.appendChild(nameLink);
 
     const removeBtn = document.createElement("button");
     removeBtn.className = "btn btn-primary";
